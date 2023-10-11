@@ -1,0 +1,11 @@
+/* @scope (.Song) {
+	h2 {
+		color: red;
+	}
+} */
+
+.Song {
+	& h2 {
+		color: dodgerblue;
+	}
+}
